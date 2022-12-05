@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="jumbotron">
+    <center>
+        <h1>URL Shortener</h1>
+        <p>Accepts a URL and returns a shortened version</p>
+        <div class="container">
+            <form method="POST" action="/create/">
+                {% csrf_token %}
+                {{ form.as_p }}
+                
+                <center><button type="submit" class="btn btn-success">Create Short URL</button></center>
+            </form>
+        </div>
+    </center>
+</div>
+
+<div class="jumbotron">
+    <center>
+        <h1>URL Restorer</h1>
+        <p>Takes a shortened url and returns the original longer URL</p>
+        <div class="container">
+            <form method="POST" action="/reverse/">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <center><button type="submit" class="btn btn-success">Revert to Original URL</button></center>
+            </form>
+        </div>
+    </center>
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="jumbotron">
+    <center>
+        <div class="container">
+            <h2 for="shortUrl">Your Short URL: </h2>
+            <input id="copy-url"class="form-control" type="text" name="shortUrl" value="http://127.0.0.1:8000/{{ chars }}">
+            <button class="btn btn-success" style="margin-top: 1em;" onclick="CopyText()">Copy URL</button>
+        </div>
+    </center>
+</div>
+{% endblock content %}
