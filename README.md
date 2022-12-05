@@ -18,6 +18,9 @@ Accepts a URL and returns a shortened version.  Takes a shortened url and return
 * Start the local server by running $ `python3 manage.py runserver`
 * View by visiting `http://127.0.0.1:8000` in a web browser
 
+# Create a shortened URL version
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/89544506/205569158-0e8aea0b-0ebc-4b25-b627-c534ffdf4af3.gif)
+
 
 ## Database
 
