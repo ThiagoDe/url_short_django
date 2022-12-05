@@ -1,4 +1,4 @@
-# url_short_django
+# URLshort Django
 Accepts a URL and returns a shortened version.  Takes a shortened url and returns the original longer URl
 
 ## Prerequisites:
