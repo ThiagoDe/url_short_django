@@ -32,3 +32,11 @@ Accepts a URL and returns a shortened version.  Takes a shortened url and return
 
 SQLite3 would work in development but we don't recommend running it in production. Instead look into using the built-in [Replit database](http://docs.replit.com/misc/database). Otherwise you are welcome to connect databases from your favorite provider. 
 
+## Models
+
+- to create model ⇒ from src run python3 [manage.py](http://manage.py) makemigrations
+- python3 [manage.py](http://manage.py/) migrate  to create all the necessary tables in the DB
+
+<img width="884" alt="model" src="https://user-images.githubusercontent.com/89544506/205585914-b0aa5f0d-6634-4465-a29f-7f47d5e31049.png">
+
+
