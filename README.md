@@ -7,7 +7,7 @@ Accepts a URL and returns a shortened version.  Takes a shortened url and return
   * sqlparse==0.4.3
   * Sqlite3 1.4 
   
-<iframe src="https://capture.dropbox.com/embed/OzYDXzwBYQuN9YfM?source=copy-embed" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://capture.dropbox.com/embed/OzYDXzwBYQuN9YfM
 
 # Local Installation
 * Clone this repo ([instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository))
