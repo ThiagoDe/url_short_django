@@ -39,4 +39,16 @@ SQLite3 would work in development but we don't recommend running it in productio
 
 <img width="884" alt="model" src="https://user-images.githubusercontent.com/89544506/205585914-b0aa5f0d-6634-4465-a29f-7f47d5e31049.png">
 
+## Creating base template following DRY principles 
+<img width="1456" alt="dry" src="https://user-images.githubusercontent.com/89544506/205586402-8f07b3ce-728b-456d-9bf0-24d43be01aff.png">
+
+## Paths urls.py
+<img width="1046" alt="path" src="https://user-images.githubusercontent.com/89544506/205586459-b472b4f2-217f-4c62-9086-19a70e595f4d.png">
+
+## CreateShortURL method for POST and GET request
+<img width="1406" alt="create" src="https://user-images.githubusercontent.com/89544506/205586762-93fa5761-428a-4813-8fab-28755aade699.png">
+
+## URL Restorer and Redirect
+<img width="1157" alt="restore" src="https://user-images.githubusercontent.com/89544506/205587369-b291d04c-0524-4be3-be2a-d6be62aef2b8.png">
+
 
