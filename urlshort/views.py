@@ -18,7 +18,6 @@ def home(request):
     return render(request, 'home.html', context)
 
 def redirect(request, url):
-
     current_obj = ShortURL.objects.filter(short_url=url) 
     if len(current_obj) == 0:
         return render(request, 'pagenotfound.html')
