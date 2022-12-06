@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Models will request queries from the DB and retrive Objs
 from .models import ShortURL
@@ -23,7 +23,7 @@ def redirect(request, url):
         return render(request, 'pagenotfound.html')
 
     context = { 'obj': current_obj[0] }
-    return render(request, current_obj[0])
+    return redirect(current_obj[0])
     # return render(request, 'redirect.html', context)
 
 def reverseURL(request):
