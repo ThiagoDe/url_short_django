@@ -1,4 +1,6 @@
 # URLshort Django
+https://ushort.up.railway.app
+
 Accepts a URL and returns a shortened version. Takes a shortened url and returns the original longer URL.
 
 _Time spent: 3h._
