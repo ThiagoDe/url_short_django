@@ -3,9 +3,13 @@
 {% block content %}
     <div class="jumbotron">
         <center>
-            <h2>URL: "{{ obj.original_url }}"</h2>
-            <h6>Your Request: "{{ obj.short_url }}"</h6>
-            <a href="{{ obj.original_url }}"><button type="button" class="btn btn-primary">Go To Website</button></a>
+            <div class="container">
+                <h2>Your original URL:</h2>
+                <input id="copy-url" class="form-control" type="text" name="shortUrl" value="{{ obj.original_url }}">
+                <button class="btn btn-success" style="margin-top: 1em;" onclick="CopyText()">Copy URL</button>
+                <a href="{{ obj.original_url }}" target="_blank"><button type="button" class="btn btn-dark"
+                        style="margin-top: 1em;" target="_blank">Go To Website</button></a>
+            </div>
         </center>
     </div>
 
