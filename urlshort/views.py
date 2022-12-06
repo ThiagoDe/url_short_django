@@ -17,13 +17,16 @@ def home(request):
     context = {'form': form}
     return render(request, 'home.html', context)
 
-def redirect(request, url):
+def redirect_original(request, url):
     current_obj = ShortURL.objects.filter(short_url=url) 
     if len(current_obj) == 0:
         return render(request, 'pagenotfound.html')
-
-    context = { 'obj': current_obj[0] }
-    return redirect('https://'+current_obj[0])
+    
+    # <--- If you want to show the proxy page uncomment lines 26 and 29
+    # context = { 'obj': current_obj[0] }
+    url_str = str(current_obj[0])
+    print(url_str, 'current obj here')
+    return redirect(url_str)
     # return render(request, 'redirect.html', context)
 
 def reverseURL(request):
