@@ -23,7 +23,8 @@ def redirect(request, url):
         return render(request, 'pagenotfound.html')
 
     context = { 'obj': current_obj[0] }
-    return render(request, 'redirect.html', context)
+    return render(request, current_obj[0])
+    # return render(request, 'redirect.html', context)
 
 def reverseURL(request):
     if request.method == 'POST':
